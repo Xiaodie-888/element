@@ -9,15 +9,15 @@ description: Switch 组件的文档
 
 ## 基础用法
 
-绑定 v-model 到一个 Boolean 类型的变量。 可以使用 **--vk-switch-on-color** 属性与 **--vk-switch-off-color** 属性来设置开关的背景色。
+绑定 `model-value` 到一个 `Boolean` 类型的变量。
 
-<preview path="../demo/Switch/Basic.vue" title="基础Switch" description="Switch 基础用例"></preview>
+<preview path="../demo/Switch/Basic.vue" title="基础用法" description="Switch 组件的基础用法"></preview>
 
 ## 禁用状态
 
-设置 **disabled** 属性，接受一个 boolean，设置true即可禁用。
+设置 `disabled` 属性，接受一个 `Boolean`，设置 `true` 即可禁用。
 
-<preview path="../demo/Switch/Disabled.vue" title="Switch 禁用状态" description="Switch 禁用状态"></preview>
+<preview path="../demo/Switch/Disabled.vue" title="禁用状态" description="禁用状态的开关"></preview>
 
 ## 不同尺寸
 
@@ -35,3 +35,12 @@ description: Switch 组件的文档
 使用 **active-text** 属性与 **inactive-text** 属性来设置开关的文字描述。
 
 <preview path="../demo/Switch/Text.vue" title="支持文字描述" description="Switch 文字描述"></preview>
+
+## Switch Attributes
+
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| model-value | 绑定值 | `boolean` | false |
+| disabled | 是否禁用 | `boolean` | false |
+| active-text | 开启时的文字描述 | `string` | — |
+| inactive-text | 关闭时的文字描述 | `string` | — |

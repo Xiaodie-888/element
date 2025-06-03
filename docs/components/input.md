@@ -6,16 +6,27 @@ description: Input 组件的文档
 # Input 输入框
 通过鼠标或键盘输入字符
 
-## 基础文本框
+## 基础用法
 
-<preview path="../demo/Input/Basic.vue" title="基础文本框" description="Input 基础文本框"></preview>
+<preview path="../demo/Input/Basic.vue" title="基础用法" description="Input 组件的基础用法"></preview>
 
-## 禁用文本框
+## 禁用状态
 
-通过 **disabled** 属性指定是否禁用 input 组件
+通过 `disabled` 属性指定是否禁用 input 组件
 
 
-<preview path="../demo/Input/Disable.vue" title="禁用文本框" description="Input 禁用文本框"></preview>
+<preview path="../demo/Input/Disabled.vue" title="禁用状态" description="禁用状态的输入框"></preview>
+
+## Input Attributes
+
+| Name | Description | Type | Default |
+|------|-------------|------|---------|
+| model-value | 绑定值 | `string` | — |
+| type | 类型 | `string` | text |
+| placeholder | 输入框占位文本 | `string` | — |
+| disabled | 是否禁用 | `boolean` | false |
+| clearable | 是否可清空 | `boolean` | false |
+| readonly | 是否只读 | `boolean` | false |
 
 ## 尺寸
 使用 size 属性改变输入框大小。 除了默认大小外，还有另外两个选项： **large**, **small**。

@@ -2,13 +2,13 @@
   "extends": "@vue/tsconfig/tsconfig.web.json",
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue"],
   "compilerOptions": {
-
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
     "types": ["unplugin-vue-macros/macros-global"],
-    "verbatimModuleSyntax": true  // 添加这一行
+    "importsNotUsedAsValues": "remove",
+    "preserveValueImports": false
   },
   "vueCompilerOptions": {
     "plugins": [

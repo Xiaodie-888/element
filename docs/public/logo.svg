@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#bd34fe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#41d1ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- 背景圆 -->
+  <circle cx="64" cy="64" r="60" fill="url(#gradient)" opacity="0.1"/>
+  
+  <!-- V 字母 -->
+  <path d="M30 35 L50 85 L64 55 L78 85 L98 35 L82 35 L70 65 L64 50 L58 65 L46 35 Z" 
+        fill="url(#gradient)" 
+        stroke="none"/>
+  
+  <!-- 装饰元素 -->
+  <circle cx="32" cy="96" r="3" fill="#bd34fe" opacity="0.6"/>
+  <circle cx="96" cy="32" r="2" fill="#41d1ff" opacity="0.8"/>
+  <circle cx="100" cy="100" r="1.5" fill="#bd34fe" opacity="0.7"/>
+  
+  <!-- 光晕效果 -->
+  <circle cx="64" cy="64" r="58" fill="none" stroke="url(#gradient)" stroke-width="2" opacity="0.3"/>
+</svg> 
